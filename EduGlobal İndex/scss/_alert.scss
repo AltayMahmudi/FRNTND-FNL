@@ -1,0 +1,35 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.alertbox .close {
+    float: none;
+    vertical-align: middle;
+    margin-left: 15px;
+    font-size: 31px;
+}
+.alertbox_content a {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.alert {
+    color: white;
+    background-color: $color-red;
+    border-color: none;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 999;
+    transition: all 0.4s ease 0s;
+    display: block;
+text-align: center;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}

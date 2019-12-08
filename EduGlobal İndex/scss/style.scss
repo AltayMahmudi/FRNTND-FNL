@@ -1,0 +1,16 @@
+//colors 
+$primary-color: #343a40;
+$secondary-color:#ffc107;
+$color-red:#dc3545;
+$gray-dark: #343a40;
+$white: rgb(255, 255, 255);
+$black: rgba(0, 0, 0, 0.979);
+
+
+
+// imports
+// @import"./GEStyle"; WIP
+// @import"./body"; WIP
+@import"./alert";
+@import"./header";
+@import"./variables";
