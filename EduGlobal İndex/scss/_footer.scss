@@ -1,0 +1,169 @@
+.top_footer {
+	padding: 100px 0;
+}
+
+.widget_links li:last-child {
+	padding-bottom: 0;
+}
+.widget_links li a {
+	color: $gray;
+	font-size: 14px;
+	position: relative;
+}
+.footer_logo {
+	margin-bottom: 15px;
+}
+
+.widget_links.links_style1 li a:hover,
+.widget_links.links_style2 li a:hover {
+	padding-left: 5px;
+}
+footer p {
+	font-size: 14px;
+}
+.widget_links li {
+	padding: 0 0 10px;
+}
+.links_style2 li a::before {
+	content: "\f3d3";
+	font-family:"Ionicons";
+	font-size: 18px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.contact_info > li > i {
+	font-size: 18px;
+	vertical-align: middle;
+	max-width: 30px;
+	width: 100%;
+	text-align: center;
+	margin-right: 5px;
+}
+.contact_info li:first-child {
+	margin-top: 0;
+}
+.contact_info > li {
+	margin-top: 15px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.contact_info i + *,
+.contact_info span + * {
+	font-size: 14px;
+	color: $gray;
+	margin: 0;
+	vertical-align: top;
+}
+footer .widget_title {
+	font-size: 18px;
+	margin-top: 10px;
+}
+.widget_title {
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	position: relative;
+}
+.bottom_footer {
+	padding: 30px 0;
+	position: relative;
+}
+.footer_link li {
+	display: inline-block;
+	position: relative;
+}
+.footer_link li a {
+	font-size: 14px;
+	padding: 0 5px;
+	color: $gray;
+}
+.post_img {
+	float: left;
+	margin-right: 10px;
+	max-width: 60px;
+}
+.post_date {
+	font-size: 80%;
+}
+.post_content {
+	overflow: hidden;
+}
+.recent_post li {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 12px;
+}
+.recent_post li:last-child {
+	margin-bottom: 0;
+}
+.post_content h6 {
+	font-size: 14px;
+	line-height: normal;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.footer_dark h1,.footer_dark h2,.footer_dark h3,.footer_dark h4,.footer_dark h5,.footer_dark h6,
+.footer_dark p,
+.footer_dark .contact_info li i,
+.footer_dark .contact_info i + *,
+.footer_dark .widget_links li a,
+.footer_dark .footer_link li a,
+.footer_dark .post_content h6 a {
+	color: $white;
+}
+.footer_dark .post_date {
+	color: rgba(255,255,255,0.6);
+}
+.footer_dark .widget_links li a:hover,
+.footer_dark .footer_link li a:hover,
+.footer_dark .post_content h6 a:hover,
+.footer_dark .contact_info a:hover {
+	color: $secondary-color;
+}
+
+.instafeed li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.instafeed li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    background-color: $secondary-color-hover;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+.instafeed li:hover a::before, .instafeed li:hover .insta_icon {
+    opacity: 1;
+}
+
+.insta_icon {
+    color: $white;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    text-align: center;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+}
+.instafeed img {
+    width: 100%;
+}
+.instafeed li {
+    float: left;
+    width: 25%;
+    padding: 3px;
+    position: relative;
+}
