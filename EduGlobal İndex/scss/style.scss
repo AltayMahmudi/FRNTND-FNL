@@ -18,6 +18,7 @@ $blue:#0e93d8;
 // @import"./body"; WIP
 @import"./alert";
 @import"./carousel";
+@import"./cards";
 @import"./header";
 @import"./footer";
 @import"./buttons";
@@ -27,4 +28,31 @@ $blue:#0e93d8;
 .list_none li 
 {
 	list-style:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Rubik', sans-serif;
+	color: #292b2c;
+	
+}
+body {
+	background: #ffffff none repeat scroll 0 0;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a {
+	color: #292b2c;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFBC09;
+	
+}
+a:focus {
+	text-decoration: none;
+	outline: none;
+	
 }
