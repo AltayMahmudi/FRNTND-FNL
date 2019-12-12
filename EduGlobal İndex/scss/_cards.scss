@@ -1,6 +1,6 @@
 .text-center {
     text-align: center!important;
-    top: -150px;
+    top: 100px;
     box-sizing: border-box;
 }
 .text-center h1{
@@ -16,7 +16,9 @@
 .card{
     padding-right: 15px;
     padding-left: 15px;
-    top:-150px;
+    top: 40px;
+    margin: 63px;
+    left: -40px;
 }
 .img1{
     background-color: #F6475F;
@@ -38,8 +40,9 @@
     width: 100px;
     text-align: center;
     left: 90px;
-    top: 10px;
+    top: 1x;
     box-sizing: border-box;
+    
 }
 
 .card-body{
@@ -49,18 +52,5 @@
     color: #888888;
 }
 
-@media  (min-width: 992px){
-    .col-lg-4{
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-}
 
-@media (min-width: 768px){
-    .col-md-6 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-}
 

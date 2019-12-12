@@ -1,3 +1,13 @@
+
+.alertbox{
+    position: relative;
+    z-index: 999;
+}
+.alertbox_content{
+    display: flex;
+    justify-content: center;
+    top: 0px;
+}
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -11,7 +21,9 @@
     color: #fff;
     font-weight: bold;
 }
-
+.alert-cont{
+    top: 0px;
+}
 
 .alert {
     color: white;
