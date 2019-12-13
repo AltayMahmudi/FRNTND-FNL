@@ -1,0 +1,46 @@
+section.small_pt, .top_footer.small_pt {
+    padding-top: 50px;
+}
+.content_box {
+    background-color: #fff;
+    margin-top: 35px;
+}
+.content_desc {
+    position: relative;
+    padding: 16px;
+}
+.teacher img {
+    max-width: 45px;
+    margin-right: 12px;
+    border-radius: 100%;
+   
+}
+.price .alert {
+    display: block;
+    margin: 0;
+    padding: 4px 17px;
+    
+}
+.content_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 5px solid #ddd;
+    padding: 20px;
+    width: 100%;
+}
+.alert-info {
+     background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+    cursor: pointer;
+}
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  cursor: pointer;
+}
+.medium_divider {
+    height: 50px;
+}

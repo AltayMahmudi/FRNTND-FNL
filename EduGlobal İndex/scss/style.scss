@@ -9,6 +9,29 @@ $black: rgba(0, 0, 0, 0.979);
 $gray: gray;
 $HoverGray:#333;
 $blue:#0e93d8;
+$SlickFontSize:30px;
+//Card Float
+$defaultDuration: .3s;
+$primaryColour: #ececec;
+$secondaryColour: #666;
+$shadowColour: rgba(0, 0, 0, .6);
+// As is often the case, some devices/browsers need additional code to get CSS to work
+// in the most desired way. These mixins are used to quickly drop in hacks for each element
+@mixin hideTapHighlightColor() {
+	//Prevent highlight colour when element is tapped
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@mixin hardwareAccel() {
+	//Improve performance on mobile/tablet devices
+	transform: translateZ(0);
+}
+
+@mixin improveAntiAlias() {
+	//Improve aliasing on mobile/tablet devices
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
 
 
 
@@ -16,6 +39,8 @@ $blue:#0e93d8;
 // imports
 // @import"./GEStyle"; WIP
 // @import"./body"; WIP
+@import"./about";
+@import"./courses";
 @import"./alert";
 @import"./carousel";
 @import"./cards";
@@ -23,11 +48,16 @@ $blue:#0e93d8;
 @import"./footer";
 @import"./buttons";
 @import"./variables";
-
+@import"./courses";
 //general style 
 .list_none li 
 {
 	list-style:none;
+}
+section {
+    padding: 100px 0;
+    position: relative;
+    width: 100%;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Rubik', sans-serif;
@@ -58,3 +88,4 @@ a:focus {
 	outline: none;
 	
 }
+
