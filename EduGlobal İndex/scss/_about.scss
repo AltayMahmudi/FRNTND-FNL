@@ -1,3 +1,5 @@
+
+
 .p-0 {
     padding: 0!important;
 }
@@ -62,10 +64,7 @@
     padding-right: 30px;
 }
 .ripple::before,.ripple::after {
-    -webkit-animation: ripple 1.8s infinite;
-    -moz-animation: ripple 1.8s infinite;
-    -o-animation: ripple 1.8s infinite;
-    -ms-transition:ripple 1.8s infinite;
+ 
     animation: ripple 1.8s infinite;
     background-color: #ffffff;
     border-radius: 100%;
@@ -80,4 +79,3 @@
     top: 0px;
     z-index:-1;
 }
-

@@ -1,0 +1,121 @@
+.parallax_bg{
+    margin-top:-150px;
+}
+.team_title {
+    background-color: #fff;
+    text-transform: capitalize;
+	padding: 15px;
+	
+}
+.team_img {
+	position: relative;
+	overflow: hidden;
+}
+.team_img img {
+    transition: all 0.5s ease-in-out;
+	width: 100%;
+    .team_box {
+        margin-top: 30px;
+    }
+}
+.team_style1 .social_icons,
+.team_style4 .social_icons {
+    position: absolute;
+    text-align: center;
+	top: 100%;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transform: translateY(-50%);
+	transition: all 0.5s ease-in-out;
+}
+.team_style1:hover .social_icons,
+.team_style4:hover .social_icons {
+	top: 50%;
+	opacity: 1;
+}
+
+
+.team_style1.team_box:hover .team_img:before,
+.team_style4.team_box:hover .team_img:before {
+	opacity: 1;
+}
+.team_style1 {
+	border-radius: 10px;
+}
+.team_style1 .team_img,
+.team_style1 .team_img img,
+.team_style1 .team_img:before {
+	border-radius: 10px 10px 0 0;
+}
+
+.contact_info span {
+	color: #333;
+    float: left;
+    width: 100%;
+    max-width: 70px;
+	margin-right: 10px;
+	line-height: normal;
+
+}
+.team_name {
+    border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	
+}
+.team_style2 .social_icons,
+.team_style3 .social_icons,
+.team_style4 .social_icons {
+	margin-top: 10px;
+}
+.team_style2:hover img {
+	transform: scale(1.05);
+}
+.team_style3 .team_img img {
+    background-color: #fff;
+    padding: 10px;
+    border: 10px solid #eee;
+    border-radius: 100%;
+  
+}
+.team_single_info {
+    display: inline-block;
+	padding: 15px;
+	width: 100%;
+}
+.team_style4 .team_img::before {
+	border-radius: 100%;
+}
+.team_box.team_style3:before {
+    content: "";
+    position: absolute;
+	background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    border-radius: 280px 280px 20px 20px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+   
+   
+}
+.team_style4 .team_img img {
+	background-color: #fff;
+    border-radius: 100%;
+}
+
+.team_style1 .team_img::before,
+.team_style4 .team_img::before {
+	content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 0.5s ease-in-out;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	
+}

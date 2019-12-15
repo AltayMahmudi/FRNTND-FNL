@@ -1,0 +1,45 @@
+.event_date {
+    position: absolute;
+    background-color: #fff;
+    max-width: 70px;
+    text-align: center;
+    width: 100%;
+    top: 40px;
+    left: 20px;
+    border-radius: 5px;
+}
+.event_date h5 {
+    font-size: 14px;
+    padding: 1px;
+    margin: 0;
+}
+.event_date span {
+    display: block;
+    padding: 1px;
+}
+
+.bg_default{
+    
+    background-color: #FFBC09;
+}
+.text_default {
+    color: #FFBC09 !important;
+}
+.event_box .content_meta {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+ 
+}
+
+.event_box .content_meta {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.event_time {
+    color: white;
+}
+.content_desc p{
+         margin-top: 0
+}

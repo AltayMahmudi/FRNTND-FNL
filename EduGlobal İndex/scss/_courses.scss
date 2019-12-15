@@ -1,9 +1,26 @@
+.pagination li {
+    margin-right: 5px;
+}
+.page-item.active .page-link{
+    border-color: #FFBC09;
+    background-color: #FFBC09;
+}
 section.small_pt, .top_footer.small_pt {
     padding-top: 50px;
 }
 .content_box {
     background-color: #fff;
     margin-top: 35px;
+}
+.pagination .page-item a {
+    color: #888888;
+    border: 2px solid #dee2e6;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 36px;
+    height: 40px;
+    width: 40px;
+    padding: 0;
 }
 .content_desc {
     position: relative;

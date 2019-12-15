@@ -1,7 +1,27 @@
 .overlay_bg_blue_70:before {
     background-color: rgba(7, 41, 77, 0.70);
 }
-.parallax_bg{
+
+.counter_background{
     position: relative;
-    z-index: 999;
+    overflow-x:hidden;
+    overflow-y:hidden;
+background-position: 50px;
+    background-size: cover;
+    height: 300px;
+top: 200px;
+}
+.counter_text{
+    font-family: 'Rubik', sans-serif;
+color: white;
+font-size: 30px;
+
+}
+.counter_desc{
+    font-size: 20px;
+    color: white;
+}
+
+.parallax_bg{
+    margin-top:-320px;
 }

@@ -39,7 +39,9 @@ $shadowColour: rgba(0, 0, 0, .6);
 // imports
 // @import"./GEStyle"; WIP
 // @import"./body"; WIP
+@import"./coach";
 @import"./about";
+@import"./counter";
 @import"./courses";
 @import"./alert";
 @import"./carousel";
@@ -49,6 +51,12 @@ $shadowColour: rgba(0, 0, 0, .6);
 @import"./buttons";
 @import"./variables";
 @import"./courses";
+@import"./event";
+@import"./register";
+@import"./gallery";
+@import"./teacher";
+@import"./contact";
+
 //general style 
 .list_none li 
 {
